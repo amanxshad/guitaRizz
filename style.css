@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.absolute{
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.shape{
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  position: relative;
+  background-color: rgb(206, 169, 238);
+  animation: rotate 10s linear infinite;
+}
+
+.bg-blur{
+  filter: blur(90px);
+}
+
+.relative{
+  position: relative;
+  top: 20px;
+  left: 0;
+  z-index: 2;
+}
+
+img{
+  height: 50%;
+
+}
