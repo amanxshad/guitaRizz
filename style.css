@@ -29,6 +29,7 @@ html {
   top: 80px;
   left: 22%;
   z-index: 2;
+  transition: all 1s ease;
 }
 
 #image{
@@ -41,6 +42,11 @@ html {
   position: fixed;
   top: 20%;
   left: 9%;
+}
+
+#headline.hidden{
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 #play{
@@ -65,4 +71,11 @@ h3{
   font-weight: lighter;
   font-size: large;
   margin-top: 170px;
+}
+
+.expanded {
+  left: 0 !important;
+  scale: 1.5;
+  top: 27% !important;
+  transition: all 1s ease;
 }

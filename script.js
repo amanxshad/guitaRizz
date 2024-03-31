@@ -27,3 +27,8 @@ document.addEventListener('mousemove', function(event) {
     }
   });
   
+  
+  document.getElementById("play").addEventListener("click", function() {
+    document.getElementById("relative").classList.add("expanded");
+    document.getElementById("headline").classList.add("hidden");
+  });
